@@ -25,7 +25,7 @@ clickToStart.addEventListener('click', () => {
     body.insertAdjacentHTML('beforeend', `
         <div class="video-container">
             <a href="#front" id="link">
-                <i class="fa-solid fa-arrow-up"></i>
+                <i class="fa-solid fa-arrow-up" id="link"></i>
             </a>
             <i class="fa-solid fa-compact-disc">
                 <div class="music-info">
@@ -50,7 +50,7 @@ clickToStart.addEventListener('click', () => {
             clearInterval(deleteEl);
 
             rand = getRandomInt(0, songs.length - 1);
-        }, 300)
+        }, 500)
 
     })
 

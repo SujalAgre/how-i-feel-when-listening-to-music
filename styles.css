@@ -103,7 +103,6 @@ i{
 .fa-compact-disc:hover .music-info{
     opacity: 1;
     visibility: visible;
-    
 }
 
 .music-info{
@@ -114,8 +113,8 @@ i{
 }
 
 .artist-name{
-    margin-top: 0.3vw;
-    font-size: 0.7vw;
+    margin-top: 0.2vw;
+    font-size: 0.8vw;
     font-family: MarlinSoftBasic-Regular;
     overflow: hidden;
     font-weight: 300;
