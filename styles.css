@@ -38,11 +38,20 @@ body {
 }
 
 #front {
-    filter: blur(7vw);
+    filter: blur(2vw);
+}
+
+#link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#link:hover{
+    color: rgb(199, 199, 199);
 }
 
 .how-i-feel {
-    font-size: 6vw;
+    font-size: 5.2vw;
     color: aliceblue;
     font-family: MarlinSoftBasic-Regular;
 }
@@ -58,6 +67,66 @@ body {
 
 html {
     scroll-behavior: smooth;
+}
+
+i{
+    overflow: hidden;
+}
+
+.fa-arrow-up{
+    font-size: 3vw;
+    position: absolute;
+    bottom: 2vw;
+    right: 2vw;
+    color: white;
+}
+
+.fa-sort-down{
+    font-size: 3vw;
+    position: relative;
+    top: 42vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.fa-compact-disc{
+    font-size: 3vw;
+    position: absolute;
+    bottom: 2vw;
+    left: 2vw;
+    color: white;
+    display: flex;
+    
+}
+
+.fa-compact-disc:hover .music-info{
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+.music-info{
+    margin-left: 0.5vw;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.artist-name{
+    margin-top: 0.3vw;
+    font-size: 0.7vw;
+    font-family: MarlinSoftBasic-Regular;
+    overflow: hidden;
+    font-weight: 300;
+}
+
+.song-name{
+    margin-top: 0.3vw;
+    font-size: 1.7vw;
+    font-family: MarlinSoftBasic-Regular;
+    overflow: hidden;
+    font-weight: 300;
 }
 
 /* Scrollbar width */
